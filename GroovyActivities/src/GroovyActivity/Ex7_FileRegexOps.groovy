@@ -4,7 +4,7 @@ class Ex7_FileRegexOps {
 
 	static void main(args) {
 
-		File file = new File("resources/sample.txt");
+		File file = new File("sample.txt");
 		file.createNewFile();
 
 		file.write("A Quick Brown Fox Jumped Over The Lazy Cow\n")
